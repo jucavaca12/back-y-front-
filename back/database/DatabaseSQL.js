@@ -1,8 +1,8 @@
-import {Sequelize } from "sequelize";
+import {Sequelize } from 'sequelize';
 
-const dataBase = new Sequelize ('crudFullstack', 'root','' , {
+const dataBase = new Sequelize ('crudfullstack', 'root','' ,{
     host:'localhost', 
-    dialect: "mysql",
+    dialect: 'mysql',
 
 });
  

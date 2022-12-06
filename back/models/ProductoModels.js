@@ -1,12 +1,12 @@
 import dataBase from "../database/DatabaseSQL.js";
-import { DataTypes } from "sequelize";
+import {Sequelize } from "sequelize";
 
-const Producto = dataBase.define('productos',{
+const Producto = dataBase.define("productos",{
 nombre:{
-    type: DataTypes.STRING
+    type: Sequelize.STRING
 }, 
 descripcion : {
-    type: DataTypes.STRING
+    type: Sequelize.STRING
 }
 })
 
